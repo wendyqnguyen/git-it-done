@@ -73,11 +73,11 @@ var getUserRepos = function(user) {
         } else {
         statusEl.innerHTML = "<i class='fas fa-check-square status-icon icon-success'></i>";
         }
-
-        // append to container
-        repoEl.appendChild(statusEl);        
+      
         // append to container
         repoEl.appendChild(titleEl);
+        // append to container
+        repoEl.appendChild(statusEl);  
     
         // append container to the dom
         repoContainerEl.appendChild(repoEl);
